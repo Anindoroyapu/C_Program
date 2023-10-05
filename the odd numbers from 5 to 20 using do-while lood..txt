@@ -1,0 +1,17 @@
+.........................................
+Write a program that can print the odd numbers from 5 to 20 using do-while lood.
+
+#include<stdio.h>
+main(){
+int k ;
+k=5;
+do
+{
+printf("%4d",k);
+k=k+2;
+}
+while(k<=20);
+getch();
+}
+
+.............................................
