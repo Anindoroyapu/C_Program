@@ -1,0 +1,19 @@
+.......................................................
+Write a program that can test whether a number is odd or even.
+
+#include<stdio.h>
+main(){
+int a,n;
+printf("\nEnter the value=");
+scanf("%d",&a);
+n=a%2;
+if(n==0){
+printf("\nThe number in Even");
+}
+else{
+printf("The number in Odd");
+}
+getch();
+}
+
+.................................................d
