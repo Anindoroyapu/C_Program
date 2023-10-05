@@ -1,0 +1,18 @@
+...................................
+Write a program that can store two integer value and Print it.
+
+#include<stdio.h>
+main(){
+int a,b;
+printf("Add two numbers");
+printf("\nEnter value a=");
+scanf("%d",&a);
+printf("%d",a);
+printf("\nEnter value b=");
+scanf("%d",&b);
+printf("%d",b);
+printf("%d%d",a,b);
+getch();
+}
+
+.......................................................
