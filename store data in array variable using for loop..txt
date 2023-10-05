@@ -1,0 +1,21 @@
+.............................................
+Write a program that can store data in array variable using for loop.
+
+#include<stdio.h>
+main(){
+int k ,n , a[100];
+printf("\nHow many numbers you want to read?");
+scanf("%d",&n);
+for(k=0;k<n;k++)
+{
+printf("\nEnter a[]%d=",k);
+scanf("%d",&a[k]);
+}
+for (k=0;k<n;k++)
+{
+printf("%4d",a[k]);
+}
+getch();
+}
+
+.............................................
