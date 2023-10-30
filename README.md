@@ -2,7 +2,7 @@
 
 ## React 
 - [x] print your address
-- [x] store two integer value and Print it
+- [x] [store two integer value and Print it] (https://www.youtube.com/watch?v=Kwye58pHhxE&pp=ygUNYyBwcm9ncmFtbWluZw%3D%3D)
 - [ ] two value and add them
 - [ ] odd or even
 - [ ] find the largest number from the inputs
