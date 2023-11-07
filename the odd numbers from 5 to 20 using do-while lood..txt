@@ -1,3 +1,4 @@
+
 .........................................
 Write a program that can print the odd numbers from 5 to 20 using do-while lood.
 
@@ -14,4 +15,3 @@ while(k<=20);
 getch();
 }
 
-.............................................

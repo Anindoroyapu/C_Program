@@ -1,3 +1,4 @@
+
 ..........................................................
 
 Write a program that can find Average of three number.
@@ -11,5 +12,21 @@ s=(a+b+c)/3;
 printf("The Average is =%f",s);
 getch();
 }
+
+
+..........................................................
+
+Write a program that can find Average of three number.
+
+#include<stdio.h>
+main(){
+float a,b,c,s;
+printf("Enter three number=");
+scanf("%f%f%f",&a,&b,&c);
+s=(a+b+c)/3;
+printf("The Average is =%f",s);
+getch();
+}
+
 
 .....................................

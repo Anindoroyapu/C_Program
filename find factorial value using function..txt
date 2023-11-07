@@ -1,3 +1,4 @@
+
 ..................................................
 
 Write a program that can find factorial value using function.
@@ -20,5 +21,30 @@ y=testfac(x);
 printf("%d",y);
 getch();
 }
+
+
+..................................................
+
+Write a program that can find factorial value using function.
+
+#include<stdio.h>
+int testfac(int n)
+{
+int i,k;
+k=1;
+for (i=1;i<=n;i++)
+{
+k=k*i;
+}
+return(k);
+}
+main(){
+int x,y;
+scanf("%d",&x)
+y=testfac(x);
+printf("%d",y);
+getch();
+}
+
 
 ..............................................

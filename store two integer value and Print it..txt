@@ -1,3 +1,4 @@
+
 ...................................
 Write a program that can store two integer value and Print it.
 
@@ -15,4 +16,3 @@ printf("%d%d",a,b);
 getch();
 }
 
-.......................................................

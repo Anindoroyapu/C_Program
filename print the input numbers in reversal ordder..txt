@@ -1,3 +1,4 @@
+
 .........................................................
 Write a program that can print the input numbers in reversal ordder.
 
@@ -13,5 +14,23 @@ num=num/10;
 }
 getch();
 }
+
+
+.........................................................
+Write a program that can print the input numbers in reversal ordder.
+
+#include<stdio.h>
+main(){
+int num , i;
+printf("\nGive your number=");
+scanf("%d",&num);
+while(num!=0)
+{
+printf("%d",num%10);
+num=num/10;
+}
+getch();
+}
+
 
 ..........................................................

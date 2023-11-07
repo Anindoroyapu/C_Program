@@ -1,3 +1,21 @@
+
+.......................................................
+Enter two value and add them
+
+#include<stdio.h>
+main(){
+int a,b,c;
+printf("Add two numbers");
+printf("\nEnter value a=");
+scanf("%d",&a);
+printf("\nEnter value b=");
+scanf("%d",&b);
+c=a+b;
+printf("\sum=%d,c");
+getch();
+}
+
+
 .......................................................
 Enter two value and add them
 
