@@ -1,0 +1,16 @@
+..........................................................
+Write a program that can find the Area of the rectangle.
+
+#include<stdio.h>
+main(){
+int a,b,r;
+printf("Enter A=");
+scanf("%d",&a);
+printf("Enter B=");
+scanf("%d",&b);
+r=a*b;
+printf("the area of Rectangle is=%d",r);
+getch();
+}
+
+..........................................................

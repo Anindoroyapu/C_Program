@@ -1,0 +1,21 @@
+..............................................
+Write a program that can store two value into different file and after reading that two value again can store the sum of them into another file.
+
+#include<stdio.h>
+main(){
+FILE*sherlock,*watson,*adler;
+int a,b;
+sherlock=fopen("Sourav.cpp","w");
+fprintf(sherlock,"%d",20);
+watson=fopen("Marry.cpp","w");
+fprintf(watson,"%d",10);
+fclose(sherlock);
+fclose(watson);
+sherlock=fopen("Sourav.cpp","r");
+fscanf(sherlock,"%d",&a);
+watson=fopen("Marry.cpp","r");
+fprintf(watson,"%d",&b);
+adler=fopen("Result.cpp","w");
+fprintf(adler,"%d",a+b);
+getch();
+}

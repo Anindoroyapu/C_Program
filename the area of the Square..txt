@@ -1,0 +1,14 @@
+....................................................
+Write a program that can find the area of the Square.
+
+#include<stdio.h>
+main(){
+float a , result;
+printf("Enter the value of a =");
+scanf("%f",&a);
+result=a*a;
+printf("The square is =%f",result);
+getch();
+}
+
+.........................................................

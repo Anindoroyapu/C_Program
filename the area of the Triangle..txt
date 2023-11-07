@@ -1,0 +1,20 @@
+.........................................................
+Write a program that can find the area of the Triangle.
+
+#include<stdio.h>
+#include<math.h>
+main(){
+float a,b,c,s,r;
+printf("Enter the number of Triangle is =");
+scanf("%f%f%f",&a,&b,&c);
+if((a+b>c)&&(b+c>a)&&(c+a>b))
+{
+printf("Area of the triangle=%f",r);
+}
+else{
+printf("Tringle in  not possible");
+}
+getch();
+}
+
+................................................................

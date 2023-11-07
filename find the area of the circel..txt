@@ -1,0 +1,14 @@
+..........................................................
+Write a program that can find the area of the circel.
+
+#include<stdio.h>
+main(){
+float A ,r;
+printf("Enter the value of Radious=");
+scanf("%f",&r);
+A=3.1416*r*r;
+printf("Area of circle is =%f",A);
+getch();
+}
+
+....................................................
